@@ -1,0 +1,18 @@
+:root {
+  --Verydarkcyan: #00494d;
+  --Darkgrayishcyan: #5e7a7d;
+  --Grayishcyan: #7f9c9f;
+  --Lightgrayishcyan: #c5e4e7;
+  --Verylightgrayishcyan: #f4fafa;
+  --White: #fff
+}
+
+body {
+  margin: 0;
+  background: hsl(185, 41%, 84%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

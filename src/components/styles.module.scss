@@ -1,0 +1,24 @@
+.mainCard {
+    background-color: var(--White);
+    width: 900px;
+    height: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+}
+
+.cardLeft {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.cardRight {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
