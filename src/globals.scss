@@ -4,16 +4,16 @@
   --Grayishcyan: #7f9c9f;
   --Lightgrayishcyan: #c5e4e7;
   --Verylightgrayishcyan: #f4fafa;
-  --White: #fff
+  --White: #fff;
+  --StrongCyan: #26c0ab;
 }
 
 html, body {
   margin: 0;
   height: 100%;
   width: 100%;
+  font-family: 'Space Mono', monospace;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
