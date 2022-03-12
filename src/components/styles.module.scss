@@ -12,18 +12,22 @@
     height: 500px;
     background: var(--White);
     border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
     .cardLeft {
         width: 200px;
-        height: 200px;
+        height: 440px;
         background: var(--Verydarkcyan);
+        
     }
     
     .cardRight {
-        width: 200px;
-        height: 200px;
+        width: 400px;
+        height: 440px;
         background: var(--Verydarkcyan);
-        
+        border-radius: 20px;
     }
 }
 

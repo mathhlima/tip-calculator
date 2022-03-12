@@ -7,7 +7,7 @@ export default function Card() {
 
             <div className={styles.mainCard}>
                 <div className={styles.cardLeft}>
-
+        tip
                 </div>
                 <div className={styles.cardRight}>
                     tip
