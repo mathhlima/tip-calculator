@@ -106,6 +106,65 @@
         height: 440px;
         background: var(--Verydarkcyan);
         border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;  
+        justify-items: center;      
+
+        .amount {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+
+            .tipAmount {
+                color: var(--White);
+
+            }
+
+            .person {
+                color: var(--Grayishcyan);
+                font-size: 13px;
+            }
+
+            .value {
+                color: var(--StrongCyan);
+                font-size: 40px;
+            }
+        }
+
+        .total {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            
+            .totalText {
+                color: var(--White)
+            }
+
+            .person {
+                color: var(--Grayishcyan);
+                font-size: 13px;
+            }
+
+            .value {
+                color: var(--StrongCyan);
+                font-size: 40px;
+            }
+        }
+
+        .resetButton {
+            display: flex;
+            justify-content: center;
+
+            button {
+                background: var(--StrongCyan);
+                border: none;
+                font-size: 30px;
+                width: 300px;
+                font-family: 'Space Mono', monospace;;
+            }
+        }
     }
 }
 
