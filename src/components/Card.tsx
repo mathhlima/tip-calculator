@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './styles.module.scss'
 
 export default function Card() {
-    function handleClick() {
-        alert('clickou no 5%')
+    const [value, setValue] = useState(0);
+    
+    function handleChange(event: any) {
+        setValue(event.target.value)
     }
+    debugger;
 
     return (
         <section className={styles.section}>
@@ -12,14 +15,14 @@ export default function Card() {
             <div className={styles.mainCard}>
                 <div className={styles.cardLeft}>
                     <span className={styles.bill}>Bill</span>
-                    <input className={styles.quantityInput}></input>
+                    <input value={value} className={styles.quantityInput} onChange={handleChange}></input>
                     <br></br><br></br><br></br>
 
                     <span className={styles.select}>Select Tip %</span><br></br><br></br>
 
                     <div className={styles.infoButtons}>
 
-                        <button onClick={handleClick}>5%</button>
+                        <button>5%</button>
                         <button>10%</button>
                         <button className={styles.percentageButton}>15%</button>
                         <button>25%</button>
